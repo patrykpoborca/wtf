@@ -8,10 +8,10 @@
 
 import Foundation
 
-class Presenter<T : pview> {
-    let presenterView : T;
+class Presenter<T : PresenterView> {
+    let presenterView : T
     
     init(presView : T){
-        presenterView = presView;
+        presenterView = presView
     }
 }

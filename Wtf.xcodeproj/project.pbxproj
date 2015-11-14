@@ -8,19 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		140526261BF3E19600D04A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526251BF3E19600D04A34 /* AppDelegate.swift */; };
-		140526281BF3E19600D04A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526271BF3E19600D04A34 /* ViewController.swift */; };
+		140526281BF3E19600D04A34 /* PresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526271BF3E19600D04A34 /* PresenterViewController.swift */; };
 		1405262B1BF3E19600D04A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140526291BF3E19600D04A34 /* Main.storyboard */; };
 		1405262D1BF3E19600D04A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1405262C1BF3E19600D04A34 /* Assets.xcassets */; };
 		140526301BF3E19600D04A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1405262E1BF3E19600D04A34 /* LaunchScreen.storyboard */; };
 		1405263B1BF3E19600D04A34 /* WtfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405263A1BF3E19600D04A34 /* WtfTests.swift */; };
 		140526461BF3E19600D04A34 /* WtfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526451BF3E19600D04A34 /* WtfUITests.swift */; };
 		140526541BF3E1B900D04A34 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526531BF3E1B900D04A34 /* Presenter.swift */; };
-		140526561BF3E1D300D04A34 /* pview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526551BF3E1D300D04A34 /* pview.swift */; };
+		140526561BF3E1D300D04A34 /* PresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526551BF3E1D300D04A34 /* PresenterView.swift */; };
 		140526581BF3E1F100D04A34 /* MyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526571BF3E1F100D04A34 /* MyPresenter.swift */; };
 		1405265A1BF3E20700D04A34 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526591BF3E20700D04A34 /* MyView.swift */; };
-		1449C1C51BF69AC600C0E0F4 /* SomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C1C41BF69AC600C0E0F4 /* SomeProtocol.swift */; };
-		1449C1C71BF69B5D00C0E0F4 /* Meh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C1C61BF69B5D00C0E0F4 /* Meh.swift */; };
-		1449C1C91BF69BA200C0E0F4 /* Derived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C1C81BF69BA200C0E0F4 /* Derived.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +40,7 @@
 /* Begin PBXFileReference section */
 		140526221BF3E19600D04A34 /* Wtf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wtf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		140526251BF3E19600D04A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		140526271BF3E19600D04A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		140526271BF3E19600D04A34 /* PresenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterViewController.swift; sourceTree = "<group>"; };
 		1405262A1BF3E19600D04A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1405262C1BF3E19600D04A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1405262F1BF3E19600D04A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,12 +52,9 @@
 		140526451BF3E19600D04A34 /* WtfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WtfUITests.swift; sourceTree = "<group>"; };
 		140526471BF3E19600D04A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		140526531BF3E1B900D04A34 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		140526551BF3E1D300D04A34 /* pview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pview.swift; sourceTree = "<group>"; };
+		140526551BF3E1D300D04A34 /* PresenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterView.swift; sourceTree = "<group>"; };
 		140526571BF3E1F100D04A34 /* MyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPresenter.swift; sourceTree = "<group>"; };
 		140526591BF3E20700D04A34 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
-		1449C1C41BF69AC600C0E0F4 /* SomeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeProtocol.swift; sourceTree = "<group>"; };
-		1449C1C61BF69B5D00C0E0F4 /* Meh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meh.swift; sourceTree = "<group>"; };
-		1449C1C81BF69BA200C0E0F4 /* Derived.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Derived.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,18 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				140526251BF3E19600D04A34 /* AppDelegate.swift */,
-				140526271BF3E19600D04A34 /* ViewController.swift */,
+				140526271BF3E19600D04A34 /* PresenterViewController.swift */,
 				140526291BF3E19600D04A34 /* Main.storyboard */,
 				1405262C1BF3E19600D04A34 /* Assets.xcassets */,
 				1405262E1BF3E19600D04A34 /* LaunchScreen.storyboard */,
 				140526311BF3E19600D04A34 /* Info.plist */,
 				140526531BF3E1B900D04A34 /* Presenter.swift */,
-				140526551BF3E1D300D04A34 /* pview.swift */,
+				140526551BF3E1D300D04A34 /* PresenterView.swift */,
 				140526571BF3E1F100D04A34 /* MyPresenter.swift */,
 				140526591BF3E20700D04A34 /* MyView.swift */,
-				1449C1C41BF69AC600C0E0F4 /* SomeProtocol.swift */,
-				1449C1C61BF69B5D00C0E0F4 /* Meh.swift */,
-				1449C1C81BF69BA200C0E0F4 /* Derived.swift */,
 			);
 			path = Wtf;
 			sourceTree = "<group>";
@@ -280,11 +271,8 @@
 				1405265A1BF3E20700D04A34 /* MyView.swift in Sources */,
 				140526541BF3E1B900D04A34 /* Presenter.swift in Sources */,
 				140526581BF3E1F100D04A34 /* MyPresenter.swift in Sources */,
-				140526561BF3E1D300D04A34 /* pview.swift in Sources */,
-				1449C1C51BF69AC600C0E0F4 /* SomeProtocol.swift in Sources */,
-				140526281BF3E19600D04A34 /* ViewController.swift in Sources */,
-				1449C1C71BF69B5D00C0E0F4 /* Meh.swift in Sources */,
-				1449C1C91BF69BA200C0E0F4 /* Derived.swift in Sources */,
+				140526561BF3E1D300D04A34 /* PresenterView.swift in Sources */,
+				140526281BF3E19600D04A34 /* PresenterViewController.swift in Sources */,
 				140526261BF3E19600D04A34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
