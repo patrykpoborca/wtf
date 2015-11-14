@@ -9,5 +9,9 @@
 import Foundation
 
 class Presenter<T : pview> {
+    let presenterView : T;
     
+    init(presView : T){
+        presenterView = presView;
+    }
 }

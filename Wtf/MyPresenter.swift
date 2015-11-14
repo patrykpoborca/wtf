@@ -8,9 +8,6 @@
 
 import Foundation
 
-class MyPresenter: Presenter<MyView>{
+class MyPresenter<T : MyView>: Presenter<T>{
     
-    public func getInstance() -> sss{
-        return sss();
-    }
 }

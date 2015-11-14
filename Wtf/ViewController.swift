@@ -8,10 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController<Z : pview, T : Presenter<Z>>: UIViewController {
+    typealias ChosenPresenter = T;
+    
+    var presenter : ChosenPresenter{
+        get{
+            if(_presenter == nil){
+
+        
+            }
+        }
+    };
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil);
+    }
+    
+    private var _presenter : ChosenPresenter?;
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
