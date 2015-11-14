@@ -14,6 +14,13 @@
 		140526301BF3E19600D04A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1405262E1BF3E19600D04A34 /* LaunchScreen.storyboard */; };
 		1405263B1BF3E19600D04A34 /* WtfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405263A1BF3E19600D04A34 /* WtfTests.swift */; };
 		140526461BF3E19600D04A34 /* WtfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526451BF3E19600D04A34 /* WtfUITests.swift */; };
+		140526541BF3E1B900D04A34 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526531BF3E1B900D04A34 /* Presenter.swift */; };
+		140526561BF3E1D300D04A34 /* pview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526551BF3E1D300D04A34 /* pview.swift */; };
+		140526581BF3E1F100D04A34 /* MyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526571BF3E1F100D04A34 /* MyPresenter.swift */; };
+		1405265A1BF3E20700D04A34 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140526591BF3E20700D04A34 /* MyView.swift */; };
+		1449C1C51BF69AC600C0E0F4 /* SomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C1C41BF69AC600C0E0F4 /* SomeProtocol.swift */; };
+		1449C1C71BF69B5D00C0E0F4 /* Meh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C1C61BF69B5D00C0E0F4 /* Meh.swift */; };
+		1449C1C91BF69BA200C0E0F4 /* Derived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C1C81BF69BA200C0E0F4 /* Derived.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		140526411BF3E19600D04A34 /* WtfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WtfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		140526451BF3E19600D04A34 /* WtfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WtfUITests.swift; sourceTree = "<group>"; };
 		140526471BF3E19600D04A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140526531BF3E1B900D04A34 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		140526551BF3E1D300D04A34 /* pview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pview.swift; sourceTree = "<group>"; };
+		140526571BF3E1F100D04A34 /* MyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPresenter.swift; sourceTree = "<group>"; };
+		140526591BF3E20700D04A34 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		1449C1C41BF69AC600C0E0F4 /* SomeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeProtocol.swift; sourceTree = "<group>"; };
+		1449C1C61BF69B5D00C0E0F4 /* Meh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meh.swift; sourceTree = "<group>"; };
+		1449C1C81BF69BA200C0E0F4 /* Derived.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Derived.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				1405262C1BF3E19600D04A34 /* Assets.xcassets */,
 				1405262E1BF3E19600D04A34 /* LaunchScreen.storyboard */,
 				140526311BF3E19600D04A34 /* Info.plist */,
+				140526531BF3E1B900D04A34 /* Presenter.swift */,
+				140526551BF3E1D300D04A34 /* pview.swift */,
+				140526571BF3E1F100D04A34 /* MyPresenter.swift */,
+				140526591BF3E20700D04A34 /* MyView.swift */,
+				1449C1C41BF69AC600C0E0F4 /* SomeProtocol.swift */,
+				1449C1C61BF69B5D00C0E0F4 /* Meh.swift */,
+				1449C1C81BF69BA200C0E0F4 /* Derived.swift */,
 			);
 			path = Wtf;
 			sourceTree = "<group>";
@@ -256,7 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1405265A1BF3E20700D04A34 /* MyView.swift in Sources */,
+				140526541BF3E1B900D04A34 /* Presenter.swift in Sources */,
+				140526581BF3E1F100D04A34 /* MyPresenter.swift in Sources */,
+				140526561BF3E1D300D04A34 /* pview.swift in Sources */,
+				1449C1C51BF69AC600C0E0F4 /* SomeProtocol.swift in Sources */,
 				140526281BF3E19600D04A34 /* ViewController.swift in Sources */,
+				1449C1C71BF69B5D00C0E0F4 /* Meh.swift in Sources */,
+				1449C1C91BF69BA200C0E0F4 /* Derived.swift in Sources */,
 				140526261BF3E19600D04A34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +512,7 @@
 				1405264C1BF3E19600D04A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1405264D1BF3E19600D04A34 /* Build configuration list for PBXNativeTarget "WtfTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				1405264F1BF3E19600D04A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		140526501BF3E19600D04A34 /* Build configuration list for PBXNativeTarget "WtfUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +530,7 @@
 				140526521BF3E19600D04A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
