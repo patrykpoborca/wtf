@@ -8,8 +8,7 @@
 
 import Foundation
 
-class MyPresenter<T>: SomeProtocol{
-    typealias sss = T;
+class MyPresenter: Presenter<MyView>{
     
     public func getInstance() -> sss{
         return sss();
