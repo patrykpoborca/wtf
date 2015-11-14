@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol pview{
-    
+protocol PresenterView {
+    init()
 }

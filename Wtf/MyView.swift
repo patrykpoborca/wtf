@@ -7,6 +7,9 @@
 //
 
 import Foundation
-protocol MyView : pview{
-    
+
+class MyView : PresenterView {
+	required init() {
+
+	}
 }
